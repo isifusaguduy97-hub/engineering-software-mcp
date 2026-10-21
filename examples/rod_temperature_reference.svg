@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="480" viewBox="0 0 820 480">
+<rect width="820" height="480" fill="white"/><g font-family="Arial,sans-serif" fill="#18384b">
+<text x="90" y="40" font-size="23">COMSOL steady 1D rod temperature</text>
+<path d="M90 80V380H750" stroke="#415c70" fill="none"/>
+<path d="M90 380.0H740" stroke="#e4ebef"/>
+<text x="78" y="385.0" font-size="13" text-anchor="end">20</text>
+<text x="90.0" y="405" font-size="13" text-anchor="middle">0</text>
+<path d="M90 324.0H740" stroke="#e4ebef"/>
+<text x="78" y="329.0" font-size="13" text-anchor="end">36</text>
+<text x="220.0" y="405" font-size="13" text-anchor="middle">20</text>
+<path d="M90 268.0H740" stroke="#e4ebef"/>
+<text x="78" y="273.0" font-size="13" text-anchor="end">52</text>
+<text x="350.0" y="405" font-size="13" text-anchor="middle">40</text>
+<path d="M90 212.0H740" stroke="#e4ebef"/>
+<text x="78" y="217.0" font-size="13" text-anchor="end">68</text>
+<text x="480.0" y="405" font-size="13" text-anchor="middle">60</text>
+<path d="M90 156.0H740" stroke="#e4ebef"/>
+<text x="78" y="161.0" font-size="13" text-anchor="end">84</text>
+<text x="610.0" y="405" font-size="13" text-anchor="middle">80</text>
+<path d="M90 100.0H740" stroke="#e4ebef"/>
+<text x="78" y="105.0" font-size="13" text-anchor="end">100</text>
+<text x="740.0" y="405" font-size="13" text-anchor="middle">100</text>
+<polyline points="90.000,100.000 122.500,114.000 155.000,128.000 187.500,142.000 220.000,156.000 252.500,170.000 285.000,184.000 317.500,198.000 350.000,212.000 382.500,226.000 415.000,240.000 447.500,254.000 480.000,268.000 512.500,282.000 545.000,296.000 577.500,310.000 610.000,324.000 642.500,338.000 675.000,352.000 707.500,366.000 740.000,380.000" fill="none" stroke="#167d9e" stroke-width="3"/>
+<circle cx="90.000" cy="100.000" r="3.5" fill="#d97824"/>
+<circle cx="122.500" cy="114.000" r="3.5" fill="#d97824"/>
+<circle cx="155.000" cy="128.000" r="3.5" fill="#d97824"/>
+<circle cx="187.500" cy="142.000" r="3.5" fill="#d97824"/>
+<circle cx="220.000" cy="156.000" r="3.5" fill="#d97824"/>
+<circle cx="252.500" cy="170.000" r="3.5" fill="#d97824"/>
+<circle cx="285.000" cy="184.000" r="3.5" fill="#d97824"/>
+<circle cx="317.500" cy="198.000" r="3.5" fill="#d97824"/>
+<circle cx="350.000" cy="212.000" r="3.5" fill="#d97824"/>
+<circle cx="382.500" cy="226.000" r="3.5" fill="#d97824"/>
+<circle cx="415.000" cy="240.000" r="3.5" fill="#d97824"/>
+<circle cx="447.500" cy="254.000" r="3.5" fill="#d97824"/>
+<circle cx="480.000" cy="268.000" r="3.5" fill="#d97824"/>
+<circle cx="512.500" cy="282.000" r="3.5" fill="#d97824"/>
+<circle cx="545.000" cy="296.000" r="3.5" fill="#d97824"/>
+<circle cx="577.500" cy="310.000" r="3.5" fill="#d97824"/>
+<circle cx="610.000" cy="324.000" r="3.5" fill="#d97824"/>
+<circle cx="642.500" cy="338.000" r="3.5" fill="#d97824"/>
+<circle cx="675.000" cy="352.000" r="3.5" fill="#d97824"/>
+<circle cx="707.500" cy="366.000" r="3.5" fill="#d97824"/>
+<circle cx="740.000" cy="380.000" r="3.5" fill="#d97824"/>
+<text x="420" y="450" font-size="16" text-anchor="middle">Position x (mm)</text>
+<text x="24" y="240" transform="rotate(-90 24 240)" font-size="16" text-anchor="middle">Temperature (degC)</text>
+<text x="100" y="70" font-size="13">Orange: native COMSOL samples; line: sample connection</text></g></svg>

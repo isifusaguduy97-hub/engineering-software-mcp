@@ -1,0 +1,9 @@
+include README.md LICENSE requirements.txt *.cmd config.example.json
+recursive-include bridges *.py *.manifest
+recursive-include templates *.py *.java
+recursive-include tools *.py
+recursive-include tests *.py
+recursive-include docs *.pdf *.json
+exclude config.local.json codex-mcp.toml
+exclude bridges/labview/labview_bindings.py
+global-exclude __pycache__ *.pyc *.log

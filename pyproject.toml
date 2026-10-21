@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engineering-software-mcp"
+version = "1.0.0"
+description = "Local Windows MCP adapters for licensed COMSOL, Autodesk Fusion and LabVIEW installations"
+requires-python = ">=3.12"
+dependencies = ["mcp==1.30.0"]
+readme = "README.md"
+license = "MIT"
+
+[tool.setuptools]
+packages = ["engineering_mcp"]
+
+[project.scripts]
+engineering-software-mcp = "engineering_mcp.server:main"

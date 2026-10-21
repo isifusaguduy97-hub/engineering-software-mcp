@@ -1,0 +1,7 @@
+{
+  "workspace": ".",
+  "comsol_root": null,
+  "labview_root": null,
+  "enable_scripts": false,
+  "max_job_seconds": 1800
+}

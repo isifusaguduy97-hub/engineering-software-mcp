@@ -1,0 +1,12 @@
+{
+  "autodeskProduct": "Fusion",
+  "type": "addin",
+  "author": "Engineering Software MCP contributors",
+  "description": {
+    "": "Local main-thread adapter for Engineering Software MCP. Run only while authorized tasks are in use."
+  },
+  "version": "1.0.0",
+  "runOnStartup": false,
+  "supportedOS": "windows",
+  "editEnabled": true
+}

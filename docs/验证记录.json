@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "tested_on": "2026-10-21",
+  "platform": "Windows",
+  "protocol": {
+    "transport": "stdio",
+    "version": "2025-11-25",
+    "tool_count": 10,
+    "initialization": "passed",
+    "tools_resources_prompts": "passed",
+    "strict_arguments": "passed",
+    "advanced_source_default": "disabled"
+  },
+  "automated_tests": {
+    "count": 32,
+    "result": "passed",
+    "engineering_backends": "mocked; native cases listed separately"
+  },
+  "native_tests": {
+    "comsol": {
+      "version": "6.4.0.429",
+      "parameters": {
+        "length_mm": 100.0,
+        "conductivity_W_mK": 200.0,
+        "left_C": 100.0,
+        "right_C": 20.0,
+        "sample_count": 21,
+        "mesh_elements": 100
+      },
+      "midpoint_temperature_C": 60.0000000000061,
+      "max_sample_error_K": 7.27595761418343e-12,
+      "heat_flux_W_m2": 159999.999999953,
+      "checks_passed": true
+    },
+    "comsol_parameterized": {
+      "parameters": {
+        "length_mm": 200.0,
+        "conductivity_W_mK": 400.0,
+        "left_C": 120.0,
+        "right_C": 20.0,
+        "sample_count": 11,
+        "mesh_elements": 80
+      },
+      "midpoint_temperature_C": 70.0000000000036,
+      "max_sample_error_K": 4.71800376544707e-12,
+      "heat_flux_W_m2": 200000.0,
+      "checks_passed": true
+    },
+    "fusion": {
+      "version": "2705.1.30",
+      "dimensions_mm": [
+        60.0,
+        40.0,
+        5.0
+      ],
+      "bodies": 1,
+      "timeline_entries": 5,
+      "fully_constrained_sketches": [
+        true,
+        true
+      ],
+      "STL": {
+        "coordinate_unit": "mm",
+        "triangles": 1228,
+        "dimensions_mm": [
+          60.0,
+          40.0,
+          5.0
+        ],
+        "closed_two_manifold": true,
+        "volume_mm3": 11569.18742975045,
+        "relative_volume_error": 4.450312114290353e-05
+      },
+      "checks_passed": true,
+      "transport_scope": "New MCP client through the already activated CodexFusionBridge compatible file queue. The independent portable add-in installer was statically tested, not manually activated in this session."
+    },
+    "labview": {
+      "version": "25.1f0",
+      "values": [
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0
+      ],
+      "mean": 30.0,
+      "error_code": 0,
+      "checks_passed": true,
+      "operation": "existing NI Mean (DBL).vi through the packaged typed user-started desktop connector",
+      "created_new_block_diagram": false
+    }
+  },
+  "limitations": [
+    "Commercial software/licenses are not distributed",
+    "Other application versions require testing",
+    "Arbitrary LabVIEW diagram generation and hardware acquisition are not verified",
+    "No remote HTTP service is provided",
+    "Official asynchronous SDK client is not part of the successful local test: default stdio transport was used",
+    "Native batch execution may require the client environment to grant local communication permissions"
+  ],
+  "github": {
+    "intended_repository": "https://github.com/isifusaguduy97-hub/engineering-software-mcp",
+    "publication_status": "Prepared locally; owner must create/upload before download links work"
+  }
+}
